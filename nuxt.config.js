@@ -5,6 +5,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/15puzzle_nextjs/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: '15puzzle_2',
