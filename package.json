@@ -1,0 +1,20 @@
+{
+  "name": "15puzzle_2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.1.0"
+  },
+  "devDependencies": {}
+}
