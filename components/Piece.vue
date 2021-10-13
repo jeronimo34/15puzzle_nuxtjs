@@ -16,10 +16,6 @@
         movePiece (x, y) {
             console.log(x + " " + y);
             this.$store.commit('game/movePiece', {x, y})
-        },
-        hoge(){
-            console.log(this);
-            return true;
         }
     }
   }

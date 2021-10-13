@@ -12,33 +12,17 @@
   export default {
     computed: {
         pieces(){
-            console.log(this.$store.state.game.pieces);
             return this.$store.state.game.pieces;
         }
     },
     components: {
       Piece
-    },
-    methods: {
-        onClick ({x, y}) {
-            this.$store.commit('game/onClick', {x, y})
-        },
-        hoge(piece){
-            console.log(piece);
-            return true;
-        }
     }
   }
 
 </script>
 
 <style scoped>
-  .tr {
-    display: table;
-  }
-  .td {
-    display: table-cell;
-  }
   .gameboard{
     position: relative;
     width: 256px;
